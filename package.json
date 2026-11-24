@@ -1,0 +1,10 @@
+{
+  "name": "driver-finance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Controle financeiro para motoristas profissionais.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}

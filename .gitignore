@@ -1,0 +1,7 @@
+.vercel
+.env*
+
+# Fora do GitHub: dados de terceiros e documentos de referência
+recibo.pdf
+TelasDoc/
+node_modules/

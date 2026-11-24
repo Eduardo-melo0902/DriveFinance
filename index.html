@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Driver Finance</title>
+  <meta name="description" content="Controle de corridas, despesas e lucro para motoristas profissionais.">
+  <meta name="theme-color" content="#0B2A4F">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Menu lateral: aparece só em telas grandes -->
+    <aside class="lateral" id="lateral"></aside>
+
+    <div class="principal">
+      <header class="topo" id="topo"></header>
+      <main class="conteudo" id="tela" tabindex="-1"></main>
+    </div>
+
+    <!-- Barra inferior: aparece só no celular -->
+    <nav class="abas" id="abas" aria-label="Navegação principal"></nav>
+  </div>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+  <!-- A ordem importa: cada arquivo usa o que veio antes -->
+  <script src="js/finance.js"></script>
+  <script src="js/ia.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/telas-inicio.js"></script>
+  <script src="js/telas-corridas.js"></script>
+  <script src="js/telas-recibos.js"></script>
+  <script src="js/telas-despesas.js"></script>
+  <script src="js/telas-receber.js"></script>
+  <script src="js/telas-veiculo.js"></script>
+  <script src="js/telas-relatorios.js"></script>
+  <script src="js/telas-ajustes.js"></script>
+  <script src="js/telas-ia.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

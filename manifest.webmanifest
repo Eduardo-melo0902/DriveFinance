@@ -1,0 +1,14 @@
+{
+  "name": "Driver Finance",
+  "short_name": "Driver Finance",
+  "description": "Mais controle. Mais lucro.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B2A4F",
+  "theme_color": "#0B2A4F",
+  "icons": [
+    { "src": "assets/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
